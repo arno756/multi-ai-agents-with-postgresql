@@ -63,7 +63,9 @@ POSTGRES_PORT=5432
 POSTGRES_DB=your_database_name
 ```
 
-Replace the placeholder values with your actual credentials. The Jupyter Notebook is configured with .env been located in the same root folder in my machine. If you use hosted notebook like Google Collab and you want to upload .env file, you will have to use the following command:
+Replace the placeholder values with your actual credentials. The Jupyter Notebook is configured with .env been located in the same root folder in my machine. 
+
+If you use Google Collab and you want to upload .env file, you will have to add the following code:
 
 ```python
 from google.colab import files
